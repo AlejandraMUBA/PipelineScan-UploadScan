@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: build
+        run: maven clean verify
   pipeline-scan:
     runs-on: ubuntu-latest
     steps:
